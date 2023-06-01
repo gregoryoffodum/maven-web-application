@@ -1,7 +1,7 @@
 version: "3"
 services:
   maven-web-app:
-    images:
+    image:
       gregoryoffodum/maven-web-app:VERSION
     networks:
     volumes:

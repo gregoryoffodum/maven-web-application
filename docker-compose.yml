@@ -3,9 +3,6 @@ services:
   maven-web-app:
     image:
       gregoryoffodum/maven-web-app:VERSION
-    networks:
-    volumes:
     ports:
       8080:8080
-networks:
-volumes:
+

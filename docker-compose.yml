@@ -4,5 +4,5 @@ services:
     image:
       gregoryoffodum/maven-web-app:VERSION
     ports:
-      8080:8080
+    - 8080:8080
 
